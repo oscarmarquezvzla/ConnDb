@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gedica.conndb.MenuAlmEntradas">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="42dp"
+        android:text="Otr. Entrada No visible >>"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="11dp"
+        android:text="Otr. Entrada Visible >>"
+        android:layout_below="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Otr. Ingresos" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
+        android:text="Conteo Caja >>"
+        android:layout_below="@+id/btn3"
+        android:layout_alignStart="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="Volver al Menú Anterior >>" />
+</RelativeLayout>

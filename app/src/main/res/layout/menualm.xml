@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gedica.conndb.MenuAlm">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Entradas >>" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:text="salidas >>"
+        android:layout_below="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Auditoría >>"
+        android:layout_below="@+id/btn2"
+        android:layout_alignStart="@+id/btn2"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Movimiento Interno >>"
+        android:layout_below="@+id/btn3"
+        android:layout_alignStart="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="volver al menú principal >>" />
+</RelativeLayout>

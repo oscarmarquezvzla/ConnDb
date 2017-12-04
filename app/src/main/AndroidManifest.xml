@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gedica.conndb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Conexion"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Conexion">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Conexion" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" />
+        </activity>
+        <activity
+            android:name=".CentroAlmacenGui"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="CentroAlmacenGui">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CentroAlmacenGui" />
+        </activity>
+        <activity
+            android:name=".AlmEntOtrosIngresos"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="CentroAlmacenGui">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlmEntOtrosIngresos" />
+        </activity>
+        <activity
+        android:name=".MenuAlm"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        android:label="CentroAlmacenGui">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MenuAlm" />
+    </activity>
+        <activity
+            android:name=".MenuAlmPrincipal"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="MenuAlmPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuAlmPrincipal" />
+        </activity>
+
+        <activity
+            android:name=".MenuAlmEntradas"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="CentroAlmacenGui">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuAlmEntradas" />
+        </activity>
+    </application>
+
+</manifest>
